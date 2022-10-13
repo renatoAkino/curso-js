@@ -1,0 +1,12 @@
+generatePasswordButton.addEventListener('click', () => {
+        console.log('teste');
+        const password = generatePassword(
+            size.value,
+            lowercse.checked,
+            uppercase.checked,
+            simbols.checked,
+            number.checked,
+        );
+
+        console.log(password);
+    });
